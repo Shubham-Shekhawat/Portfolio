@@ -1,0 +1,123 @@
+.container{
+    color: white;
+    width: 100vw;
+    height: 88vh;
+    padding: 0vh 4vw 0vh 10vw ;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2c2d31;
+
+    .image{
+        width: 30vw;
+        height: 70%;
+        background-color: #ffc86b;
+        margin-top: 15vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            height: 98%;
+            width: 99%;
+            object-fit:contain;
+        }
+    }
+
+    .text{
+        width: 35vw;
+        height: 100%;
+        padding: 17% 0%;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        /* background-color: rgb(16, 16, 9); */
+        
+        h1{
+            font-size: 3vh;
+            word-spacing: 1vh;
+            font-weight: 300;
+            span{
+                font-size: 5vh;
+                color: #ffc86b;
+                font-weight: 600;
+            }
+        }
+        p{
+            font-size: 2.5vh;
+        }
+        button{
+            width: 45%;
+            padding: 1vh 3vw 1vh 3vw;
+            border: 5px solid #ffc86b;
+            border-radius: 10px;
+            font-size: 3vh;
+            color: #ffc86b;
+            font-weight: 600;
+            background-color: #2c2d31;
+            .button{
+                text-decoration: none;
+                color: aliceblue;
+            }
+        }
+    }
+}
+
+@media (max-width:550px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        /* padding: 0vh 7vw; */
+        margin: 0;
+        /* background-color: #fff; */
+        .image{
+            width: 50vw;
+            height: 50%;
+            /* background-color: red; */
+            /* margin: 10vw; */
+            margin-top: 10vh;
+    
+            display: none;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit:contain;
+                display: none;
+            }
+        }
+        .text{
+            width: 85vw;
+            height: 100%;
+            padding: 17% 0%;
+            display: flex;
+            flex-direction: column;
+            /* gap: 5vh; */
+            /* background-color: rgb(16, 16, 9); */
+            
+            h1{
+                font-size: 3vh;
+                word-spacing: 1vh;
+                font-weight: 300;
+                span{
+                    font-size: 5vh;
+                    color: #ffc86b;
+                    font-weight: 600;
+                }
+            }
+            p{
+                font-size: 2vh;
+            }
+            button{
+                width: 75%;
+                padding: 1vh 3vw 1vh 3vw;
+                border: 5px solid #ffc86b;
+                border-radius: 10px;
+                font-size: 3vh;
+                color: #ffc86b;
+                font-weight: 600;
+                background-color: #2c2d31;
+            }
+        }
+    }
+    
+    
+}

@@ -1,0 +1,103 @@
+.container{
+    width: 100vw; 
+    /* height: 100vh; */
+    background-color: #31333b;
+    border-top: 2px solid #ffc86b;
+    padding: 5vh 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    h1{
+        text-align: center;
+        font-size: 7vh;
+    }
+    .projects{
+        margin-top: 4vh;
+        /* background-color: pink; */
+        width: 100%;
+        display: flex;
+        gap: 5vh;
+        flex-wrap: wrap;
+        justify-content: center;
+        .project{
+            width: 15%;
+            height: 30vh;
+            background-color: #3d3e42;
+            border-radius: 10px;
+            padding: 5vh 2vh; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2vh;
+
+            img{
+                width: 80%;
+                height: 100%;
+                /* overflow: hidden; */
+                object-fit:fill;
+            }
+            h2{
+                font-size: 100%;
+            }
+            .gitHubLink{
+                text-decoration: none;
+                color: aliceblue;
+            }
+        }
+    }
+}
+
+@media (max-width:550px) {
+    .container{
+        width: 100vw; 
+        /* height: 100vh; */
+        background-color: #31333b;
+        border-top: 2px solid #ffc86b;
+        padding: 5vh 6vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: aliceblue;
+        h1{
+            text-align: center;
+            font-size: 4vh;
+            font-weight: 600;
+        }
+        .projects{
+            margin-top: 4vh;
+            /* background-color: pink; */
+            width: 100%;
+            display: flex;
+            gap: 5vh;
+            flex-wrap: wrap;
+            justify-content: center;
+            .project{
+                width: 35%;
+                height: 35%;
+                background-color: #3d3e42;
+                border-radius: 10px;
+                padding: 5vh 2vh; 
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 2vh;
+    
+                img{
+                    width: 80%;
+                    height: 100%;
+                    /* overflow: hidden; */
+                    object-fit:fill;
+                }
+                h2{
+                    font-size: 90%;
+                    text-align: center;
+                }
+                .gitHubLink{
+                    text-decoration: none;
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+}

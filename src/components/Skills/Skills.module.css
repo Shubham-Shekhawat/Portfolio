@@ -1,0 +1,110 @@
+.container{
+    /* height: 100vh;
+    width: 100vw;
+    background-color: #31333b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7vh 0vw 0vh 5vw; */
+    min-height: 70vh;
+    width: 100vw;
+    height:auto;
+    border-top: 2px solid #ffc86b;
+    background-color:  #31333b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10vh 6vh;
+    h1{
+        text-align: center;
+        color: white;
+        font-size: 7vh;
+        font-weight: 600;
+    }
+    .techs{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2vh;
+        padding: 4vh 0vh;
+
+        .tech{
+            width: 15vh;
+            height: 15vh;
+            background-color: #3d3e42;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 10px;
+            color: aliceblue;
+            font-size: 90%;
+            border: 2px solid #51545f;
+            h3{
+                font-size: 90%;
+            }
+        }
+    }
+    
+    img{
+        height: 60%;
+        width: 60%;
+    }
+    /* h3{
+        text-align: center;
+    } */
+}
+
+@media only screen and (max-width:550px) {
+    .container{        
+        border-top: 2px solid #ffc86b;
+        background-color:  #31333b;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 9vh 6vh;
+
+        padding: 3vh 3vh;
+        h1{
+            text-align: center;
+            color: white;
+            font-size: 200%;
+            font-weight: 600;
+        }
+        .techs{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5vh;
+            padding: 4vh 0vh;
+
+            gap: 3vh;
+            .tech{
+                width: 10vh;
+                height: 10vh;
+                background-color: #3d3e42;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                border-radius: 10px;
+                color: aliceblue;
+    
+                width: 11vh;
+                height: 10vh;
+                h3{
+                    font-size: 100%;
+                }
+            }
+        }
+        
+        img{
+            height: 60%;
+            width: 60%;
+        }
+        /* h3{
+            text-align: center;
+        } */
+    }
+}
